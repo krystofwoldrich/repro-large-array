@@ -23,7 +23,23 @@ public class TestModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void test(ReadableArray arr, Promise promise) {
+    public void dataAsArray(ReadableArray arr, Promise promise) {
         promise.resolve(null);
     }
+
+    @ReactMethod
+    public void dataAsJSON(String data, Promise promise) {
+        promise.resolve(null);
+    }
+
+    @ReactMethod
+    public void dataAsArrayToString(String data, Promise promise) {
+        promise.resolve(null);
+    }
+
+    @ReactMethod
+    public void dataAsBase64(String data, Promise promise) {
+        promise.resolve(null);
+    }
+
 }
