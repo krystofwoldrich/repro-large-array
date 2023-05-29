@@ -1,4 +1,4 @@
-# repro-large-array
+## How to transfer bytes (10s MB) to/from native layers in  React Native
 
 How to reproduce:
 
